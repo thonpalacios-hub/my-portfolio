@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <style>
+        {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+          .split-container{
+          display: flex;
+          height: 100vh;
+          width: 100vw;
+          }
+      .left-side, .right-side{
+          padding: 20px;
+          overflow-y: auto;
+          font-family: sans-serif;
+          }
+
+          .left-side {
+            flex: 3;
+            background-color: #768ca3;
+          }
+          .right-side {
+            flex: 7;
+            background-color: #ecf0f1;
+            color: #333;
+          }
+          .left-side h2{
+            margin-bottom: 8px;
+            padding-bottom: 2px;
+          }
+          .left-side h3{
+            margin-bottom: 10px;
+            border-bottom: 2px solid #bac7c7;
+            padding-bottom: 10px;
+          }
+          .left-side ul{
+            list-style: none;
+          }
+          .left-side li{
+            margin: 12px 0;
+          }
+
+          .left-side p{
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 14px;
+          }
+          .right-side h1{
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #101010;
+          }
+          .right-side p{
+            margin-bottom: 15px;
+            line-height: 1.6;
+            font-size: 14px;
+          }
+    </style>
+</head>
+  <body>
+    <div class="split-container">
+
+      <div class="left-side">
+        <h2>Hi, I'm Rembrandt</h2>
+        <h3>Reconciliation Analyst</h3>
+        <ul>
+          <li><p>Address: Alojado St. Centro Sur, Culasi, Antique</p></li>
+          <li><p>Contact Number: +63 932 384 1428</p></li>
+          <li><p>Email: thonpalacios@gmail.com</p></li>
+        </ul>
+      </div>
+
+      <div class="right-side">
+        <h1>About Me</h1>
+        <p>I'm a passionate Reconciliation Analyst who loves to find discrepancies and ensure accuracy in financial records. I have a keen eye for detail and a strong analytical mindset. I enjoy solving complex problems and contributing to the financial health of an organization. Solving discrepancies in financial records makes me feel accomplished and helps maintain the integrity of our financial data.</p>
+      </div>
+    </div> 
+
+  </body>
+</html>
