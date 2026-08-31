@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Profile Page</title>
+    <style>
+        header {	
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px;
+			background-color: #f5f5f5;
+		}
+		.nav ul {
+			list-style-type: none;	
+			align-items: center;
+			display: flex;
+			gap: 20px;
+		}	
+    </style>
+</head>
+
+<body>
+<header>
+				<div class="header-left">
+					<h1>Rembrandt Palacios</h1>
+					<h2>Reconciliation Analyst</h2>
+				</div>
+
+				<nav aria-label="Main navigation">
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<img src="images/image.jpg" alt="A developer which shows that he has no idea why his code is not working and when it works, he still has no idea why it works." width="250" height="350" position="right">
+</header>
+
+<main>
+			<hr>
+				<section id="about">
+					<h2>About Me</h2>
+					<p>I'm a Reconciliation Analyst with experience in financial data analysis and reporting.</p>
+					<p>With a keen eye for detail, I ensure that all reconciliations are accurate and complete.</p>
+					<p>Since I know that I have enough experience with reconciliation processes, I want to expand my knowledge in other areas.</p>
+					<p>Then opportunity came when I was asked to participate in Full-Stack Web Development, I embraced the challenge.</p>
+					<p>I'm currently learning and expanding my skills in Full-Stack Web Development.</p>
+				</section>
+
+				<hr>
+				<section id="skills">
+					<h2>Skills</h2>
+					<ul>
+						<li>Financial Data Analysis</li>
+						<li>Reconciliation Processes</li>
+						<li>Reporting and Documentation</li>
+						<li>Full-Stack Web Development (in progress)</li>
+					</ul>
+				</section>
+
+				<hr>
+				<section id="projects">
+					<h2>Projects</h2>
+
+					<article>
+						<h3>Personal Portfolio</h3>
+						<p>A semantic HTML portfolio page that will later be styled with CSS and improved with JavaScript.</p>
+						<a href="https://github.com/thonpalacios-hub/my-portfolio">View Repository</a>
+					</article>
+				</section>
+				
+				<hr
+				<section id="contact">
+					<h2>Contact Me</h2>
+					<p>Feel free to reach out if you have any questions or opportunities!</p>
+
+					<form>
+						<label for="name">Fullname:</label>
+						<input type="text" id="name" name="name" required>
+
+						<label for="email">Email address:</label>
+						<input type="email" id="email" name="email" required>
+
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" rows="5" required></textarea>
+						<button type="submit">Send Message</button>
+					</form>
+				</section>
+	<hr>
+	<footer>
+		<p>&copy; 2026 Rembrandt Palacios. All rights reserved.</p>
+		<a href="https://github.com/thonpalacios-hub">View My GitHub Profile</a>
+	</footer>
+</main>
+</body>
+</html>
